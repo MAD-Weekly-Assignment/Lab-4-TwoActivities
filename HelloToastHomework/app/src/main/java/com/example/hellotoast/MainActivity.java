@@ -13,8 +13,9 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     private int mCount = 0;
     private TextView mShowCount;
-    public static final String EXTRA_MESSAGE
-            = "com.example.android.twoactivities.extra.MESSAGE";
+
+    public static final String EXTRA_COUNT
+            = "com.example.android.twoactivities.extra.Count";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sayHello(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra(EXTRA_MESSAGE, mCount);
+        intent.putExtra(EXTRA_COUNT, mCount);
         startActivity(intent);
     }
 }
