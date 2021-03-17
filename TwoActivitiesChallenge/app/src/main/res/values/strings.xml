@@ -9,4 +9,7 @@
     <string name="text_one">Text One</string>
     <string name="text_two">Text Two</string>
     <string name="text_three">Text Three</string>
+    <string name="display_one">Display Text One</string>
+    <string name="display_two">Display Text Two</string>
+    <string name="display_three">Display Text Three</string>
 </resources>
