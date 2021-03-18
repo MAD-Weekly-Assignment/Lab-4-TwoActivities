@@ -16,6 +16,8 @@
   - Replying Message
 <img src="Screenshots/ReplyingMSG.gif" width=300/>
 
+# Two Activities Challenge
+
 ### Two Activities Challenge Overview
 
 - Application Index
@@ -31,6 +33,9 @@
 
 - Text Three Button
 <img src="Screenshots/Text-3.gif" width=300>
+
+
+# Hello Toast Homework
 
 ### Hello Toast Homework Overview
 
